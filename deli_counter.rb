@@ -2,5 +2,21 @@ katz_deli = []
 
 def take_a_number(karz_deli, person)
   katz_deli.push(person)
-  puts
+  puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
 end
+
+# ----------------------------------
+
+def line(katz_deli)
+  line_number = 1
+
+  puts "The line is currently:"
+  katz_deli.each do |name|
+    print " #{line_number}. #{name}"  
+    line_number += 1
+  end
+end
+
+# ----------------------------------
+
+def now_sering
