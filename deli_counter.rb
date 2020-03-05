@@ -19,7 +19,7 @@ def line(katz_deli)
       line_number += 1
     end
   end
-  puts katz_deli
+  return katz_deli
 end
 
 # ----------------------------------
