@@ -8,8 +8,8 @@ end
 # ----------------------------------
 
 def line(katz_deli)
+  
   line_number = 1
-
   puts "The line is currently:"
   katz_deli.each do |name|
     print " #{line_number}. #{name}"  
