@@ -21,7 +21,7 @@ end
 
 def now_sering(katz_deli)
   puts "currently serving #{katz_deli[0]}."
-  
+  katz_deli.shift[0];
 end  
   
   
