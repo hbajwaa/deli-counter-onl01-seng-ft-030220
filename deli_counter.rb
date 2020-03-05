@@ -13,9 +13,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     line_number = 1
-    puts "The line is currently:"
+    message = "The line is currently:"
     katz_deli.each do |name|
-      print " #{line_number}. #{name}"  
+      message += " #{line_number}. #{name}"  
       line_number += 1
     end
   end
