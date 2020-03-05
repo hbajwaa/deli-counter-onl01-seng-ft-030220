@@ -19,4 +19,9 @@ end
 
 # ----------------------------------
 
-def now_sering
+def now_sering(katz_deli)
+  puts "currently serving #{katz_deli[0]}."
+  
+end  
+  
+  
