@@ -15,6 +15,7 @@ def line(katz_deli)
     print " #{line_number}. #{name}"  
     line_number += 1
   end
+  return katz_deli
 end
 
 # ----------------------------------
