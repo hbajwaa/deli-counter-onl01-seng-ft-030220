@@ -9,11 +9,15 @@ end
 
 def line(katz_deli)
   
-  line_number = 1
-  puts "The line is currently:"
-  katz_deli.each do |name|
-    print " #{line_number}. #{name}"  
-    line_number += 1
+  if katz_deli.length == 0
+    puts "The line is currently empty."
+  else
+    line_number = 1
+    puts "The line is currently:"
+    katz_deli.each do |name|
+      print " #{line_number}. #{name}"  
+      line_number += 1
+    end
   end
   return katz_deli
 end
